@@ -5,7 +5,7 @@ load_dotenv()
 
 USER_CONFIG = {
     "location": {
-        "city": "Feltham",
+        "city": "London",
         "lat": 51.5072,
         "lon": -0.1276
     },

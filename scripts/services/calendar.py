@@ -4,7 +4,7 @@ import datetime
 from typing import List, Dict
 
 # The file containing our mock data
-MOCK_FILE_NAME = f'../data/mock_events.json'
+MOCK_FILE_NAME = f'../../data/mock_events.json'
 
 def get_todays_events() -> List[Dict]:
     """

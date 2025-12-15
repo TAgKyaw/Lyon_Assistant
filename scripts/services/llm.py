@@ -26,9 +26,8 @@ def generate_planner_summary(api_key, name, reminders):
     1. Start with a friendly greeting, addressing the user by name ({name}).
     2. Give a brief summary of the **Weather** (condition and temperature).
     3. Mention the **Transit** status and reason.
-    4. List any upcoming **Reminders**.
-    5. If there is any reminder with an outside event, add a little info to be careful of bad weather.
-    6. The entire response must be a single, easy-to-read block of text. 
+    4. List any upcoming **Reminders** and include any weather-relevant notes for outside events.
+    5. The entire response must be a single, easy-to-read block of text.
     """
     
     try:
