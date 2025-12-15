@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 USER_CONFIG = {
     "location": {
         "city": "Feltham",
@@ -14,13 +19,13 @@ USER_CONFIG = {
         "calendar_id": "primary"
     },
     "weather" : {
-        "api_key": "4f5d6b50d5d643fbaac111900251512"
+        "api_key": os.getenv('WEATHER_API_KEY')
     },
     "tfl": {
-        "app_id": "YOUR_APP_ID",
-        "app_key": "YOUR_APP_KEY"
+        "app_id": os.getenv('TFL_APP_ID'),
+        "app_key": os.getenv('TFL_APP_KEY')
     },
     "gemini": {
-        "api_key": "AIzaSyDbyaMZcSpMunTroEOk5D-N7lWkeEvW1yw"
+        "api_key": os.getenv('GEMINI_API_KEY')
     }
 }
