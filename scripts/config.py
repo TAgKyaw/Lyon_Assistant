@@ -1,6 +1,6 @@
 USER_CONFIG = {
     "location": {
-        "city": "London",
+        "city": "Feltham",
         "lat": 51.5072,
         "lon": -0.1276
     },
@@ -21,6 +21,6 @@ USER_CONFIG = {
         "app_key": "YOUR_APP_KEY"
     },
     "gemini": {
-        "api_key": "YOUR_OPENAI_API_KEY_HERE"
+        "api_key": "AIzaSyDbyaMZcSpMunTroEOk5D-N7lWkeEvW1yw"
     }
 }

@@ -16,7 +16,7 @@ def build_day_plan(events: List[Dict], weather_info: Dict) -> List[Dict]:
     reminders = []
     
     # Extract the current weather summary for use in reminders
-    weather_summary = weather_info.get("summary", "Weather details unavailable.")
+    weather_summary = weather_info
     
     for event in events:
         # 1. Format the time
@@ -32,7 +32,7 @@ def build_day_plan(events: List[Dict], weather_info: Dict) -> List[Dict]:
         weather_note = ""
         if event.get('is_outside'):
             # This is the key planning logic: advise on outdoor events
-            weather_note = f"⚠️ IMPORTANT: This is an outdoor event. Expect: {weather_summary}"
+            weather_note = f"IMPORTANT: This is an outdoor event. Expect: {weather_summary}"
         
         # 3. Create the final reminder object
         reminders.append({

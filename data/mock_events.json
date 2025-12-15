@@ -21,7 +21,7 @@
         "title": "Library Visit",
         "start_time": "2025-12-15T18:15:00",
         "location": "Local Library",
-        "is_outside": false
+        "is_outside": true
     },
     {
         "title": "Team Sync-up",
@@ -87,7 +87,7 @@
         "title": "Team Sync-up",
         "start_time": "2025-12-18T15:00:00",
         "location": "Local Library",
-        "is_outside": false
+        "is_outside": true
     },
     {
         "title": "Lunch Break",
@@ -147,7 +147,7 @@
         "title": "1:1 with Manager",
         "start_time": "2025-12-20T14:00:00",
         "location": "Local Library",
-        "is_outside": false
+        "is_outside": true
     },
     {
         "title": "Personal Admin",
@@ -165,7 +165,7 @@
         "title": "Library Visit",
         "start_time": "2025-12-21T10:45:00",
         "location": "Local Library",
-        "is_outside": false
+        "is_outside": true
     },
     {
         "title": "Groceries Run",
@@ -237,7 +237,7 @@
         "title": "Call with Family",
         "start_time": "2025-12-25T14:45:00",
         "location": "Local Library",
-        "is_outside": false
+        "is_outside": true
     },
     {
         "title": "Deep Work Slot",
@@ -333,13 +333,13 @@
         "title": "Dentist Appointment",
         "start_time": "2025-12-30T17:15:00",
         "location": "Local Library",
-        "is_outside": false
+        "is_outside": true
     },
     {
         "title": "Meet Alex for Coffee",
         "start_time": "2026-01-01T15:30:00",
         "location": "Home Office",
-        "is_outside": false
+        "is_outside": true
     },
     {
         "title": "Lunch Break",
