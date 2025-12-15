@@ -8,7 +8,7 @@ def build_greeting_message(username, weather, transit, events):
 
     return (
         f"Good day, {username}.\n"
-        f"Weather: {weather['condition']} and {weather['temp']}°C.\n"
+        f"Weather: {weather['condition']} and {weather['temp_c']}°C.\n"
         f"Transit: {transit['status'].capitalize()} ({transit['reason']}).\n\n"
         f"Today's agenda:\n{events_str}"
     )

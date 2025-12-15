@@ -1,5 +1,4 @@
 # services/weather.py
-
 import requests
 from typing import Dict
 

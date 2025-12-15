@@ -19,5 +19,8 @@ USER_CONFIG = {
     "tfl": {
         "app_id": "YOUR_APP_ID",
         "app_key": "YOUR_APP_KEY"
+    },
+    "gemini": {
+        "api_key": "YOUR_OPENAI_API_KEY_HERE"
     }
 }
