@@ -15,5 +15,9 @@ USER_CONFIG = {
     },
     "weather" : {
         "api_key": "4f5d6b50d5d643fbaac111900251512"
+    },
+    "tfl": {
+        "app_id": "YOUR_APP_ID",
+        "app_key": "YOUR_APP_KEY"
     }
 }
